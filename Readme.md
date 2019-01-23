@@ -18,5 +18,5 @@ steps to run:
         $ python3  main.py --file mnist_train.csv  --platform keras
         $ python3  main.py --file mnist_train.csv  --platform mxnet
     
-git repo: https://github.com/marouaneloutfi/digits_ocr
+
 

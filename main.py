@@ -41,7 +41,7 @@ ctx = mx.gpu() if mx.test_utils.list_gpus() else mx.cpu()
 
 # initialisation de données avec le fichier d'entrainement CSV
 print("preparing Data...")
-mydata = DigitData('mnist_train.csv')
+mydata = DigitData(path)
 # preparation du données
 mydata.perpareData()
 # normalisation du données
